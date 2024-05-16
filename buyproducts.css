@@ -1,0 +1,293 @@
+*{
+    padding: 10px;
+}
+body{
+    background-color: cornflowerblue;
+    width: 100%;
+}
+.shop{
+    font-size: 40px;
+    color: whitesmoke;
+    position: relative;
+    text-align: center;
+    font-family: Courier New; 
+      
+}
+.p1{
+    margin: auto;
+    width:auto;
+    height: 250px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+.p1d{
+    height: 300px;
+    width: 80%;
+    position: relative;
+    align-self: center;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    z-index: ;
+}
+.p1h{
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    bottom: 2px;
+    position: absolute;
+    left: auto;
+}
+.but1{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.p2{
+    margin: auto;
+    width:auto;
+    height: 250px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+
+}
+.p2d{
+    height: 270px;
+    width: 80%;
+    position: relative;
+    align-self: center;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+}
+.p2h{
+    font-size: 20px;
+    color:black ;
+    text-align: center;
+    bottom: 2px;left: auto;
+    position: absolute;
+}
+.but2{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.p3{
+    margin: auto;
+    width:auto;
+    height: 250px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+.p3d{
+    height: 300px;
+    width: 80%;
+    position: relative;
+    align-self: center;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    z-index: ;
+}
+.p3h{
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    bottom: 2px;left: auto;
+    position: absolute;
+}
+.but3{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.p4{
+    margin: auto;
+    width:auto;
+    height: 250px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+.p4d{
+    height: 300px;
+    width: 80%;
+    position: relative;
+    align-self: center;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    z-index: ;
+}
+.p4h{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    bottom: 2px;left: auto;
+    position: absolute;
+}
+.but4{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.p5{
+    margin: auto;
+    width:auto;
+    height: 250px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+.p5d{
+    height: 300px;
+    width: 80%;
+    position: relative;
+    align-self: center;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    z-index: ;
+}
+.p5h{
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    bottom: 2px;left: auto;
+    position: absolute;
+}
+.but5{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.p6{
+    margin: auto;
+    width:auto;
+    height: 250px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+.p6d{
+    height: 300px;
+    width: 80%;
+    position: relative;
+    align-self: center;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    z-index: ;
+}
+.p6h{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    bottom: 2px;left: auto;
+    position: absolute;
+}
+.but6{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.bars .bar{
+    height: 5px;
+    width: 58px;
+    background: white;
+    margin: 3px 0px;
+    transform-origin: left;
+    transition: all 0.5s;
+    
+}
+.bars:hover .up{
+    transform: rotate(45deg);
+}
+.bars:hover .mid{
+    opacity: 0;
+}
+.bars:hover .down{
+    transform: rotate(-45deg);
+}
+.hamburger{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.ham1{
+    position: absolute;
+    top: 2px; 
+    left: -15px;
+}
+.ham2{
+    position: absolute;
+    top: 2px; 
+    left: 300px;
+}
+footer{
+    position: absolute;
+    border: 0px;
+    left: 0px;
+}
+.bars2 .bar2{
+    height: 5px;
+    width: 58px;
+    margin: 3px 0px;
+    background: white;
+    transform-origin: right;
+    transition: all 0.5s;
+    animation: colourchange 0.1s infinite;    
+}
+@keyframes colourchange {
+    0%{
+       background-color: white; 
+    }
+    100%{
+        background-color: white;
+    }
+}
+.bars2:hover .up{
+    transform: rotate(-45deg);
+}
+.bars2:hover .mid{
+    opacity: 0;
+}
+.bars2:hover .down{
+    transform: rotate(45deg);
+}
